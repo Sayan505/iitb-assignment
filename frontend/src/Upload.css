@@ -1,0 +1,82 @@
+.Input_Div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 2vw;
+
+    padding-top: 16px;
+}
+
+.AV_Div {
+    width: 45vw;
+    height: 80vh;
+    padding: 8px;
+    border: 2px;
+    border-style: solid;
+    border-radius: 16px;
+    border-color: black;
+    background-image: linear-gradient(
+        45deg,
+        hsl(240deg 12% 92%) 0%,
+        hsl(247deg 20% 91%) 17%,
+        hsl(254deg 28% 90%) 26%,
+        hsl(262deg 33% 89%) 34%,
+        hsl(270deg 36% 89%) 42%,
+        hsl(278deg 38% 87%) 50%,
+        hsl(287deg 39% 86%) 59%,
+        hsl(296deg 38% 85%) 69%,
+        hsl(306deg 43% 84%) 82%,
+        hsl(314deg 51% 83%) 100%
+      );
+}
+
+.TXT_Div {
+    width: 45vw;
+    height: 80vh;
+    padding: 8px;
+    border: 2px;
+    border-style: solid;
+    border-radius: 16px;
+    border-color: black;
+    background-image: linear-gradient(
+        0deg,
+        hsl(240deg 12% 92%) 0%,
+        hsl(230deg 19% 91%) 17%,
+        hsl(223deg 26% 91%) 29%,
+        hsl(217deg 33% 90%) 37%,
+        hsl(213deg 39% 89%) 43%,
+        hsl(208deg 44% 88%) 47%,
+        hsl(204deg 48% 87%) 51%,
+        hsl(201deg 50% 86%) 58%,
+        hsl(197deg 51% 85%) 70%,
+        hsl(194deg 51% 83%) 100%
+      );
+}
+
+.SUB_Div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#submit {
+    background-color: #6200EA;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    scale: 128%;
+    margin: 8px;
+}
+
+#txt {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    resize: none;
+    outline: none;
+}
+
+#media_player {
+    background-color: transparent;
+}
